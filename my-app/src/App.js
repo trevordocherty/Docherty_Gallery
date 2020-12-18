@@ -11,8 +11,12 @@ function App() {
   <div>
 <Route component = {Home_Page} path = "/" exact />
 <Route component = {Nasa_Photo_of_the_Day} path = "/nasaphototoday" />
-<Route compenent = {Mars_Rover_Photos} path = "marsroverphoto" />
-  
+<Route compenent = {Mars_Rover_Photos} path = "/marsroverphoto" />
+<Route component = {Earth_Images_Space_Station} path = "./earthimages" />
+<Route component = {Image_Gallery} path = "./image_gallery" />
+<Route>
+<body> Hello Lets Explore Space</body>
+</Route>
   </div>
   </BrowserRouter>
   );
